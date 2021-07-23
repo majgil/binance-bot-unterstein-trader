@@ -3,12 +3,12 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>io.github.unterstein</groupId>
-    <artifactId>binancebot</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <groupId>com.binance.bot</groupId>
+    <artifactId>binance-bot-unterstein-trader</artifactId>
+    <version>1.0.0</version>
     <packaging>jar</packaging>
 
-    <name>binancebot</name>
+    <name>binance-bot-unterstein-trader</name>
     <description>Yet another stupid trading bot</description>
 
     <parent>
@@ -39,7 +39,7 @@
         <dependency>
             <groupId>com.binance.api</groupId>
             <artifactId>binance-api-client</artifactId>
-            <version>1.0.0</version>
+            <version>1.0.1</version>
         </dependency>
     </dependencies>
 
